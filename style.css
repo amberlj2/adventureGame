@@ -1,0 +1,27 @@
+body{ 
+    background-color: rgb(141, 141, 141);
+}
+
+h3 {
+    color: black;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+}
+
+h2 {
+    color: black;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+
+p {
+    text-align: center;
+}
+
+li {
+    text-align: center;
+    display: inline;
+   
+}
