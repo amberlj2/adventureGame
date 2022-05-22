@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>
+WELCOME TO GEMIRATES</title>
+<style>
+body {background-color:#ce8d8d;background-image:url(images/frontbg.jpg);background-size: cover;}
+h1{font-family:'Courier New', Courier, monospace;
+  color:#0021c7;
+  font-size:400%;
+  position: absolute; /* taken out of the normal flow of the document */
+ top: 50%; /* moved down by 50% of the screen height */
+ transform: translateY(-50%); /* moved back up (Y axis) by half of its height to achieve the perfect center */
+ width: 99%; /* needs to be defined to keep the default block behavior */
+ text-align: center;
+ margin: 0; /* again, for perfect center */
+  text-shadow: 2px 2px 4px #0b0000;
+  animation-name: example;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+  transition: color .4s ease-in-out,text-shadow .2s ease-in-out;}
+@keyframes example {
+  0%   {font-size:400%;}
+  50%  {font-size:450%;}
+  100%  {font-size:400%;}
+}
+h1:hover{
+  color:#ce0000;
+  text-shadow: 2px 2px 4px #d3db00;
+}
+
+p{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size:12px;
+  font-style:normal;
+  font-weight:normal;
+  color:#a8a8a8;
+  text-align:center;
+  text-shadow: 2px 2px 4px #000000;
+  animation-name: eup;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+@keyframes eup {
+  0%   {color:#a8a8a8;}
+  50%  {color:#000000;}
+  100%  {color:#a8a8a8;}
+}
+
+</style>
+</head>
+<body>
+<a href="welcomePage.html">
+<h1>WELCOME TO GEMIRATES</h1>
+</a>
+<p>click to play<br>press F11 for better experience</p>
+
+
+
+</body>
+</html>
